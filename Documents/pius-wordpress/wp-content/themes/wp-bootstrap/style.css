@@ -1,0 +1,252 @@
+/*   
+Theme Name: BS 4 Theme
+Theme URI: https://piusenterprises.com
+Description: A Theme for WordPress with Bootstrap for styling.
+Author: Pius Otuoma
+Author URI: https://piusotuoma.com
+Version: 1.0
+*/
+@media only screen and
+(min-device-width : screen px) and
+(max-device-width : screen px) {
+	#id{style}
+}
+html {
+	  margin:0;
+}
+body {
+     margin:0;
+	 }
+#parentpage {
+            width:100%;
+}
+#panelA {
+     width:12cm;
+	 height:21.32cm;
+	 margin-top:0;
+	 margin-bottom:0;
+	 padding-top:1cm;
+	 padding-left:1cm;
+	 background: #4AC29A;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to left, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to left, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	 position:relative;
+}
+#panelAtableone {
+     
+}
+#panelApicone {
+     width:3cm;
+	 height:3cm;
+	 border-radius:50%;
+	 background-color:#FFFFFF;
+}
+#neem {
+     margin-left:0.8cm;
+	 font-size:0.8cm;
+	 color:#FFFFFF;
+}
+#paragraphAone {
+     font-size:1cm;
+	 color:#FFFFFF;
+	 margin-left:2cm;
+	 margin-top:4cm;
+}
+#panelAbutton {
+     width:3cm;
+	 height:0.8cm;
+	 color:#00B0F0;
+	 font-size:0.55cm;
+	 margin-left:3.7cm;
+	 border-style:solid;
+	 border-width:1px;
+	 border-color:#00B0F0;
+	 border-radius:20px;
+	 background-color:transparent; 
+}
+#panelApictwo {
+     width:5cm;
+	 height:5cm;
+	 border-radius:50%;
+	 background-color:#FFFFFF;
+	 position:absolute;
+	 top:9cm;
+	 right:-1.5cm;
+}
+#panelB {
+     position:relative;
+     padding-left:3cm;
+	 padding-bottom:2cm;
+}
+#boardB {
+     width:15cm;
+	 height:13cm;
+     margin:auto;
+     border-style:solid;
+	 border-width:1px;
+	 border-color:#EAEAEA;
+}
+
+#paragraphBone {
+     text-align:center;
+	 font-size:0.7cm;
+}
+#selleridtile {
+     position:relative;
+	 
+}
+#sellerid {
+	 margin-left:4.5cm;
+	 font-size:0.4cm;
+	 width:1.5cm;
+	 color:#4D4D4D;
+	 background-color:#FFFFFF;
+}
+#selleridinput {
+	 margin-left:4cm;
+	 margin-right:4cm;
+	 width:7cm;
+	 height:0.8cm;
+	 padding-left:0.3cm;
+	 font-size:0.5cm;
+	 border-style:solid;
+	 border-width:1px;
+	 border-radius:20px;
+	 border-color:#EAEAEA;
+}
+#selleridinput:focus {
+     outline:none;
+}
+#sellerpasswordtile {
+     position:relative;
+}
+#sellerpassword {
+     margin-left:4.5cm;
+	 font-size:0.4cm;
+	 width:3cm;
+	 color:#4D4D4D;
+	 background-color:#FFFFFF;
+}
+#sellerpasswordinput {
+     margin-left:4cm;
+	 margin-right:4cm;
+	 width:7cm;
+	 height:0.8cm;
+	 padding-left:0.3cm;
+	 font-size:0.5cm;
+	 border-style:solid;
+	 border-width:1px;
+	 border-radius:20px;
+	 border-color:#EAEAEA;
+}
+#sellerpasswordinput:focus {
+     outline:none;
+}
+#prompt {
+     width:7cm;
+	 overflow:break-word;
+     margin-left:4.3cm;
+	 font-size:0.45cm;
+	 color:#FF6A1F;
+}
+#infoprocessingbutton {
+	 width:3cm;
+	 height:0.65cm;
+	 margin-left:4.3cm;
+	 font-size:0.55cm;
+	 border-style:none;
+	 border-radius:20px;
+	 background: #4AC29A;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to left, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to left, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+	 
+}
+#retry_action {
+     margin-left:4.3cm;
+	 font-size:0.45cm;
+	 color:#009999;
+}
+.spin-container {
+     position:absolute;
+     text-align: center;
+	 margin-top:6cm;
+     top:3cm;
+	 margin-left:8cm;
+	 display:none;
+	 
+}
+.spin {
+	border: 3px solid #0D4B9F;
+	width:4cm;
+	height:4cm;
+	margin: 0 auto;
+	border-radius: 50%;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	animation: rotate 2s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+}
+#loader2 {
+	border: 3px solid #E0EDFF;
+	width:3.4cm;
+	height:3.4cm;
+	margin-top:0.25cm;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	animation: rotate2 2s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+}
+
+#loader3 {
+        border: 3px solid #005CDC;
+        width: 2.8cm;
+        height:2.8cm;
+		margin-top:0.25cm;
+        border-left-color:transparent;
+        border-right-color:transparent;
+        animation: rotate 2s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+}
+#loader4 {
+        border: 3px solid #94B6E5;
+        width:2.2cm;
+        height:2.2cm;
+		margin-top:0.25cm;
+        border-left-color:transparent;
+        border-right-color:transparent;
+        animation: rotate2 2s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+}
+@keyframes rotate {
+        0% {
+          transform: rotateZ(-360deg)
+        }
+        100% {
+          transform: rotateZ(0deg)
+        }
+}
+@keyframes rotate2 {
+        0% {
+          transform: rotateZ(360deg)
+        }
+        100% {
+          transform: rotateZ(0deg)
+        }
+}
+#text {
+	color:#0000FF;
+	font-family: Arial;
+	font-size: 0.3cm;
+	position:absolute;
+	top:1cm;
+	left:0.5cm;
+	
+	
+}
+#forgotdetails {
+    margin-left:4.3cm;
+}
+#forgotdetailslink {
+   font-size:0.55cm;
+   color:#009999;
+}
+a {
+  text-decoration:none;
+}
